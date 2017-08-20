@@ -1,4 +1,4 @@
-Only the source code for CP(Master/Slave mode) is included.
+Only the source code for CP(MongoDB Master/Slave mode) is included.
 
 
 -add shore DB nosql code on the github to run this program.
