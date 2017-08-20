@@ -1,0 +1,194 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MyPC\workspace\springb_version_pc_slave\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\MyPC\workspace\springb_version_pc_slave\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ demo ---
+[INFO] Surefire report directory: C:\Users\MyPC\workspace\springb_version_pc_slave\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+23:17:12.204 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.DemoApplicationTests]
+23:17:12.220 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:17:12.239 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:17:12.264 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.DemoApplicationTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+23:17:12.331 [main] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@45f292 declaringClass = 'com.example.DemoApplicationTests', classes = '{class com.example.DemoApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+23:17:12.362 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.example.DemoApplicationTests]: class path resource [com/example/DemoApplicationTests-context.xml] does not exist
+23:17:12.362 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.example.DemoApplicationTests]: class path resource [com/example/DemoApplicationTestsContext.groovy] does not exist
+23:17:12.363 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:17:12.367 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.DemoApplicationTests]
+23:17:12.376 [main] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.DemoApplicationTests]: using defaults.
+23:17:12.390 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+23:17:12.419 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+23:17:12.420 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+23:17:12.428 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@29daf3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1660f4e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@8806ef, org.springframework.test.context.support.DirtiesContextTestExecutionListener@49835d]
+23:17:12.435 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.DemoApplicationTests]
+23:17:12.437 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.DemoApplicationTests]
+Running com.example.DemoApplicationTests
+23:17:12.442 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.DemoApplicationTests]
+23:17:12.442 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:17:12.442 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:17:12.443 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.DemoApplicationTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+23:17:12.447 [main] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@1faf8f2 declaringClass = 'com.example.DemoApplicationTests', classes = '{class com.example.DemoApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+23:17:12.448 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.example.DemoApplicationTests]: class path resource [com/example/DemoApplicationTests-context.xml] does not exist
+23:17:12.448 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.example.DemoApplicationTests]: class path resource [com/example/DemoApplicationTestsContext.groovy] does not exist
+23:17:12.449 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:17:12.449 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.DemoApplicationTests]
+23:17:12.450 [main] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.DemoApplicationTests]: using defaults.
+23:17:12.454 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+23:17:12.455 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+23:17:12.456 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+23:17:12.457 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1a5f880, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@129cf23, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1282abb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7fdd33]
+23:17:12.457 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.DemoApplicationTests]
+23:17:12.457 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.DemoApplicationTests]
+23:17:12.459 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.DemoApplicationTests]
+23:17:12.459 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.DemoApplicationTests]
+23:17:12.463 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@11c1ea0 testClass = DemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1579e0f testClass = DemoApplicationTests, locations = '{}', classes = '{class com.example.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+23:17:12.465 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.DemoApplicationTests]
+23:17:12.465 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.DemoApplicationTests]
+23:17:12.470 [main] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@11c1ea0 testClass = DemoApplicationTests, testInstance = com.example.DemoApplicationTests@f2b07d, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1579e0f testClass = DemoApplicationTests, locations = '{}', classes = '{class com.example.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+23:17:12.645 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+23:17:12.651 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+23:17:12.652 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+23:17:12.655 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.3.RELEASE)
+
+2016-04-12 23:17:13.803  INFO 4396 --- [           main] com.example.DemoApplicationTests         : Starting DemoApplicationTests on WINDOWS-80KONH6 with PID 4396 (C:\Users\MyPC\workspace\springb_version_pc_slave\target\test-classes started by MyPC in C:\Users\MyPC\workspace\springb_version_pc_slave)
+2016-04-12 23:17:13.804  INFO 4396 --- [           main] com.example.DemoApplicationTests         : No active profile set, falling back to default profiles: default
+2016-04-12 23:17:13.904  INFO 4396 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@a8564a: startup date [Tue Apr 12 23:17:13 PDT 2016]; root of context hierarchy
+master.db exists.
+File Channel Size: 8396800
+Get Block Number: 0
+Get Block Offset: 0
+Get BLock Limit: 8192
+===== START VOLUME HEADER =====
+Header Size:   8192 bytes 
+Volume ID:     0
+Page Size:     4194304 bytes 
+Block Size:    8192 bytes 
+Num Pages:     1 pages allocated 
+Extent Size:   2 pages reserved 
+Max Extents:   10 max pages 
+Free Page:     0
+===== END VOLUME HEADER =====
+File Channel Size: 8396800
+Page Request Size: 4202496
+Get Page Number: 0
+Get Page Offset: 8192
+Get Page Limit: 4202496
+===== START PAGE HEADER =====
+Header Size:   8192 bytes 
+Page Number:   0
+Page Size:     4194304 bytes 
+-- Slot Table --
+===== END PAGE HEADER =====
+data.db exists.
+File Channel Size: 838868992
+Get Block Number: 0
+Get Block Offset: 0
+Get BLock Limit: 8192
+===== START VOLUME HEADER =====
+Header Size:   8192 bytes 
+Volume ID:     1
+Page Size:     4194304 bytes 
+Block Size:    8192 bytes 
+Num Pages:     200 pages allocated 
+Extent Size:   200 pages reserved 
+Max Extents:   200 max pages 
+Free Page:     199
+===== END VOLUME HEADER =====
+File Channel Size: 838868992
+Page Request Size: 4202496
+Get Page Number: 0
+Get Page Offset: 8192
+Get Page Limit: 4202496
+===== START PAGE HEADER =====
+Header Size:   8192 bytes 
+Page Number:   0
+Page Size:     4194304 bytes 
+-- Slot Table --
+===== END PAGE HEADER =====
+index.db exists.
+File Channel Size: 41951232
+Get Block Number: 0
+Get Block Offset: 0
+Get BLock Limit: 8192
+===== START VOLUME HEADER =====
+Header Size:   8192 bytes 
+Volume ID:     2
+Page Size:     4194304 bytes 
+Block Size:    8192 bytes 
+Num Pages:     1 pages allocated 
+Extent Size:   10 pages reserved 
+Max Extents:   50 max pages 
+Free Page:     0
+===== END VOLUME HEADER =====
+File Channel Size: 41951232
+Page Request Size: 4202496
+Get Page Number: 0
+Get Page Offset: 8192
+Get Page Limit: 4202496
+===== START PAGE HEADER =====
+Header Size:   8192 bytes 
+Page Number:   0
+Page Size:     4194304 bytes 
+-- Slot Table --
+===== END PAGE HEADER =====
+File Channel Size: 8396800
+Page Request Size: 4202496
+Get Page Number: 0
+Get Page Offset: 8192
+Get Page Limit: 4202496
+GET RECORD: 00.00.00.00.00.00.00.01
+RECORD START BLOCK: 1
+RECORD BLOCK SPAN:  489
+Get Page Block Number: 1
+Get Page Block Offset: 8192
+Get Page Block Limit: 4014080
+Page Buffer: java.nio.DirectByteBuffer[pos=20 lim=2048 cap=4194304]
+Got Page Block: java.nio.DirectByteBuffer[pos=0 lim=4005888 cap=4005888]
+2016-04-12 23:17:18.084  INFO 4396 --- [           main] com.example.DemoApplicationTests         : Started DemoApplicationTests in 5.424 seconds (JVM running for 6.831)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.653 sec - in com.example.DemoApplicationTests
+2016-04-12 23:17:18.099  INFO 4396 --- [       Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@a8564a: startup date [Tue Apr 12 23:17:13 PDT 2016]; root of context hierarchy
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ demo ---
+[INFO] Building jar: C:\Users\MyPC\workspace\springb_version_pc_slave\target\demo-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.3.3.RELEASE:repackage (default) @ demo ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.882 s
+[INFO] Finished at: 2016-04-12T23:17:20-07:00
+[INFO] Final Memory: 19M/47M
+[INFO] ------------------------------------------------------------------------
